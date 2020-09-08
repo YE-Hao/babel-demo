@@ -1,0 +1,19 @@
+{
+  "name": "babelplugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src/ --out-dir lib"
+  },
+  "author": "YE",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1"
+  },
+  "dependencies": {
+    "antd": "^4.5.3"
+  }
+}
